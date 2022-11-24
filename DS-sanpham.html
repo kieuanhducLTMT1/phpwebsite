@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm </title>
+    <link href="Kieu-Anh-Duc/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="trangchu.css">
+    <!--font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- link font icon-->
+  <link rel="stylesheet" href="font-icon/fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="nav-top-links">
+                    <ul class="social-top">
+                        <li> HOTLINE: 0865282883</li>
+                    </ul>
+                </div>
+                     <div class="support-link">
+                    <a href=""></i> Đăng nhập</a>
+                    <a href="">Đăng ký</a>
+                    
+                </div> </div>
+        </div>
+        <!--/.top-header -->
+        <!--/.top-header-than -->
+        <div class="header-than">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                       <a href="./trangchu.html"> <img src="imges/trangchu/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-xs-7 col-sm-7">
+                        <input id="qsearch" type="text" name="qsearch" onkeyup="searchproduct()" placeholder="Tìm kiếm sản phẩm..." autocomplete="off">
+                        <a href=""><img src="imges/trangchu//timkiem.png" alt=""></a>
+                    </div>
+                    <div class="col-xs-5 col-sm-2">
+                        <a href="./dathang.html"><img src="imges/trangchu/giohang.jpg" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--MENU-->
+    <div class="menu_top">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2">
+                  <a href="./DS-sanpham.html">Danh sách sản phẩm</a>
+                 </div>
+              
+                <div class="col-md-10">
+                  
+                    <ul>
+                        <li> <a href="./ct-san-pham.html"> Chi tiết Sản Phẩm </a> </li>
+                        <li> <a href="./tintuc.html"> Danh sách Tin Tức </a> </li>
+                        <li> <a href="./ct-tintuc.html">  Chi tiết tin tức</a> </li>
+                        <li> <a href="./lienhe.html"> Liên hệ </a> </li>
+                        <li> <a href="./gioithieu.html"> Giới thiệu </a> </li>
+                        <li> <a href="./dathang.html"> Đặt hàng </a> </li>
+    
+    
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--Thân trang -->
+    <div class="DSSP-header">
+         <div class="container">
+            <p><a href="./trangchu.html"><span>Tran chủ</span></a> / <a href="">Danh sách sản phẩm </a></p>
+
+         </div>
+    </div>
+    <!--menu-->
+    <div class="DSSP-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href=""><img src="" alt=""><br></a>
+                </div>
+                <div class="col">
+                   <div class="img">
+                        <img src="imges/icond/hinh1.png" alt=""><br>
+                   </div>
+                   <a href="">Sofa giường</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh2.png" alt=""><br>
+                   </div>
+                   <a href="">Ghế sofa</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh3.png" alt=""><br>
+                   </div>
+                   <a href="">Bàn-Bàn sofa</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh4.png" alt=""><br>
+                   </div>
+                   <a href="">Ghế xinh</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh5.png" alt=""><br>
+                   </div>
+                   <a href="">Bộ bàn ghế</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh6.png" alt=""><br>
+                   </div>
+                   <a href="">Bộ bàn ghế</a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh7.png" alt=""><br>
+                   </div>
+                   <a href="">Tủ valabo</a>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh8.png" alt=""><br>
+                   </div>
+                   <a href="">Quạt trần </a>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh9.png" alt=""><br>
+                   </div>
+                   <a href="">Kệ trang trí </a>
+
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="imges/icond/hinh10.png" alt=""><br>
+                   </div>
+                   <a href="">Sản phẩm khác</a>
+
+                </div>
+                <div class="col">
+                    <a href=""><img src="" alt=""><br></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--Nội dung-->
+    <div class="DSSP-conten">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-3">  
+            
+     <!-- sub menu -->
+         <div class="menu-phai">
+                   <div class="menu-phai-tren">
+                       <h4 class="title">
+                 <span class="SFG-title"><i class="fa fa-bars"></i></span><span>Sofa giường</span></h4>
+                        <div class="SFG-menu">
+                        <nav class="menu">				
+                                         <li class="vertical-menu-list">
+                                          <a href=""><i class="fa fa-chevron-circle-right"></i><span>Sofa giường gấp</span></a> </li>					
+                                         <li class="vertical-menu-list">
+                                         <a href=""><i class="fa fa-chevron-circle-right"></i><span>Sofa giường kéo</span></a></li>					
+                                 </nav>
+                       </div>
+                     </div>
+        </div>
+     <!-- Bộ lọc-->
+     <p class="title_block">BỘ LỌC</p>
+     <div class="boloc">	
+                         <div class="khoanggia">
+                             <h5><strong>Khoảng giá</strong></h5>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="11"><span>0 - 200.000đ	</span>			
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="1"><span>200.000 - 500.000đ	</span>			
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="2"><span>500.000đ - 1.000.000đ</span>	
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="8"><span>1.000.000đ - 2.000.000đ</span>				
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="9"><span>2.000.000đ - 5.000.000đ</span>				
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="10"><span>5.000.000 - 10.000.000đ</span>				
+                                   </label>	  
+                                 </div>
+                                                       <div class="checkbox">  	  
+                                   <label>
+                                     <input type="checkbox" value="12"><span>Trên  10.000.000đ</span>				
+                                   </label>	  
+                                 </div>
+                                                     <input id="gia_id" type="hidden" value="">
+                         </div>
+             
+        </div>
+
+<!--Sản phẩm bán chạy-->
+ <div class="sanphambanchay">
+    <h5>SẢN PHẨM BÁN CHẠY</h5>
+    <ul>
+        <li>
+            <a href=""><img src="imges/ctsp/menu-phai1.gif" alt=""></a>
+            <a href=""><p>Sofa bed cao cấp 2in1 (tặng 2 gối) FS100</p> <span>3,550,000đ</span></a>
+        </li>
+        <li>
+            <a href=""><img src="imges/ctsp/menuphai2.gif" alt=""></a>
+            <a href=""><p>Sofa bed cao cấp Mid-Century Moder</p> <span>11,550,000đ</span></a>
+        </li>
+        <li>
+            <a href=""><img src="imges/ctsp/menuphai3.gif" alt=""></a>
+            <a href=""><p>Sofa bed đa năng cao cấp MF819</p> <span>8,550,000đ</span></a>
+        </li>
+    </ul>
+ 
+</div>
+<!--Sản phẩm mới-->
+<div class="sanphambanchay">
+  <h5>SẢN PHẨM MỚI NHẤT</h5>
+  <ul>
+      <li>
+          <a href=""><img src="imges/ctsp/menu-phai1.gif" alt=""></a>
+          <a href=""><p>Sofa bed cao cấp 2in1 (tặng 2 gối) FS100</p> <span>3,550,000đ</span></a>
+      </li>
+      <li>
+          <a href=""><img src="imges/ctsp/menuphai2.gif" alt=""></a>
+          <a href=""><p>Sofa bed cao cấp Mid-Century Moder</p> <span>11,550,000đ</span></a>
+      </li>
+      <li>
+          <a href=""><img src="imges/ctsp/menuphai3.gif" alt=""></a>
+          <a href=""><p>Sofa bed đa năng cao cấp MF819</p> <span>8,550,000đ</span></a>
+      </li>
+  </ul>
+
+</div>
+   
+     <!--Xu hướng tìm kiếm -->          
+      <div class="xuhuong">
+         <h5>XU HƯỚNG TÌM KIẾM</h5>
+         <div class="tukhoa">	
+             <p>
+                                 <a class="tag-item" href="">Sofa giường</a>
+                                 <a class="tag-item" href="">Sofa bed</a><br>
+                                 <a class="tag-item" href="">Nội thất</a>
+                                 <a class="tag-item" href="">Ghế sofa</a> <br>
+                                 <a class="tag-item" href="">Sofa chung cư</a>
+                                 <a class="tag-item" href="">Nha xinh</a><br>
+                                 <a class="tag-item" href="">Sofa thông minh</a>
+                                 <a class="tag-item" href="">Quạt trần</a>
+             </p>
+         </div>
+     </div>
+                 </div>
+            <div class="col-sm-9">
+                  <div class="DSSP-phai-tren">
+                       <span class="SFG">Sofa Giường</span>
+                       <span class="xeptheo"> Xếp theo:
+                        <select name="" id="">
+                          <option value="0">Thông thường</option>
+                          <option value="1">Gía tăng dần</option>
+                          <option value="2">Gía giảm dần</option>
+                          <option value="3">Sản phẩm mới</option>
+                        </select>
+
+                       </span>
+                  </div>
+                  <div class="title">
+                 <p>
+                  <b>Sofa giường</b> hay còn gọi là <b>Sofa bed</b> là một trong những vật dụng nội
+                 thất có thể nói là “hót” hiện nay, bởi tính năng thông mình và tiện 
+                 lợi mà nó mang lại. Những mẫu <b>ghế sofa giường</b> được thiết kế vô cùng 
+                 đa dạng cả về kiểu dáng, kích thước, chất liệu… mang đến cho người 
+                 sử dụng cảm giác thoải mái nhất. Giờ đây bạn không còn lo lắng về 
+                 việc diện tích không gian sống bị hạn chế, bởi mẫuu thiết kế này có 
+                 thể giúp bạn vừa làm ghế vừa làm giường ngủ cực kỳ tiện lợi. Vậy sofa 
+                 giường (sofa bed) là gì cùng tìm hiểu với nội thất Nhà Xinh qua bài viết
+                  này. <br>
+                  Với những căn nhà nhỏ, những không gian sống sở hữu diện tích khiêm tốn 
+                  sở hữu sofa giường gấp thông minh này là một trong những lựa chọn thông
+                   minh và sáng suốt nhất. Khi dùng bạn có thể ngả sofa giường này ra để 
+                   nghỉ ngơi, nằm ngủ sau một ngày dài làm việc hoặc có thể thư giãn đọc 
+                   sách, nghe nhạc thưởng thức tách trà nóng. Mẫu ghế sofa giường đẹp với
+                   màu sắc trung tính nhẹ nhàng và đầy lôi cuốn, cùng với phom dáng thanh lịch.
+                 </p>
+                  </div>
+                  <div class="san-pham">
+                    <ul>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh1.gif" alt="">
+                          <p class="td">Small Sofa Bed MF822 (Tặng đôn...</p>
+                          <p class="text-red"><span>4,250,000đ</span> <span class="span">5,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh2.gif" alt="">
+                          <p class="td">Ghế Sofa bed đa năng SB222 (tặng 03 gối)</p>
+                          <p class="text-red"><span>6,250,000đ</span> <span class="span">6,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh3.jpg" alt="">
+                          <p class="td">Sofa bed khung kim loại MF821-Black (tặng 2 gối)</p>
+                          <p class="text-red"><span>4,850,000đ</span> <span class="span">6,290,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh4.gif" alt="">
+                          <p class="td">Sofa bed khung kim loại 2in1 FS116 (tặng 2 gối)</p>
+                          <p class="text-red"><span>4,950,000đ</span> <span class="span">6,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh5.gif" alt="">
+                          <p class="td">Sofa bed khung kim loại 2in1 FS116 (tặng 2 gối)</p>
+                          <p class="text-red"><span>4,950,000đ</span> <span class="span">6,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh6.gif" alt="">
+                          <p class="td">Sofa bed khung kim loại 2in1 FS116 (tặng 2 gối)</p>
+                          <p class="text-red"><span>4,950,000đ</span> <span class="span">6,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh7.gif" alt="">
+                          <p class="td">Sofa bed cao cấp Mid-CenturyStyle MF810</p>
+                          <p class="text-red"><span>8,950,000đ</span> <span class="span">9,690,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                          <img src="imges/trangchu/sofa-giuong/hinh8.jpg" alt="">
+                          <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                          <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+                      </a></li>
+                      <li><a href="./ct-san-pham.html">
+                        <img src="imges/ctsp/hinh9.gif" alt="">
+                        <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                        <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+                    </a></li>
+                    <li><a href="./ct-san-pham.html">
+                      <img src="imges/ctsp/hinh10.gif" alt="">
+                      <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                      <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+                  </a></li>
+                  <li><a href="./ct-san-pham.html">
+                    <img src="imges/ctsp/hinh11.gif" alt="">
+                    <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                    <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+                </a></li>
+                <li><a href="./ct-san-pham.html">
+                  <img src="imges/ctsp/hinh12.jpg" alt="">
+                  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+              </a></li>
+              <li><a href="./ct-san-pham.html">
+                <img src="imges/ctsp/hinh13.gif" alt="">
+                <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+                <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+            </a></li>
+            <li><a href="./ct-san-pham.html">
+              <img src="imges/ctsp/hinh14.gif" alt="">
+              <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+              <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+          </a></li>
+          <li><a href="./ct-san-pham.html">
+            <img src="imges/ctsp/hinh15.jpg" alt="">
+            <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+            <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+        </a></li>
+        <li><a href="./ct-san-pham.html">
+          <img src="imges/ctsp/hinh16.jpg" alt="">
+          <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+          <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+      </a></li>
+      <li><a href="./ct-san-pham.html">
+        <img src="imges/ctsp/hinh17.jpg" alt="">
+        <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+        <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+    </a></li>
+    <li><a href="./ct-san-pham.html">
+      <img src="imges/ctsp/hinh18.jpg" alt="">
+      <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+      <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+  </a></li>
+  <li><a href="./ct-san-pham.html">
+    <img src="imges/ctsp/hinh19.gif" alt="">
+    <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+    <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh20.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh21.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh22.jpg" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh23.jpg" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh24.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh25.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh26.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh27.jpg" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh28.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh29.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh30.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh31.gif" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+<li><a href="./ct-san-pham.html">
+  <img src="imges/ctsp/hinh32.jpg" alt="">
+  <p class="td">Elegant sofa bed MF807 (Technology Cloth)</p>
+  <p class="text-red"><span>5,850,000đ</span> <span class="span">7,290,000đ</span></p>
+</a></li>
+          
+                     
+                  </ul>
+                  </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+       <!--Foter-->
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+                <a href=""><H6>NỘI THẤT HÀ NỘI</H6></a>
+              <a href=""><p> <i class="fa-solid fa-location-dot"></i> Số 199 Trần Quốc Hoàn, Cầu Giấy, Hà Nội</p></a>
+              <a href=""><p> <i class="fas fa-phone"></i>0865282883</p></a>
+              <a href=""><p> <i class="fa-regular fa-envelope"></i></i>kieuanhduc2883@gmail.com</p></a>
+              <a href=""><p>  <i class="fa-sharp fa-solid fa-truck-fast"></i>Giao hàng toàn quốc</p></a>
+            </div>
+            <div class="col">
+                <a href=""><H6>CHÍNH SÁCH BÁN HÀNG</H6></a>
+                <a href=""><p> Bảo mật thông tin</p></a>
+                <a href=""><p> Hướng dẫn đặt hàng</p></a>
+                <a href=""><p> Chính sách bảo mật</p></a>
+                <a href=""><p> Chính sách bảo hành </p></a>
+                <a href=""><p> Quy định chung</p></a>
+              </div>
+              <div class="col">
+                <a href=""><H6>XU HƯỚNG TÌM KIẾM</H6></a>
+                <a href=""><p><span>Sofa giường</span> <span>Ghế sofa</span> <span>Nội thất</span>
+                     <span>Sofa bed</span> <span>Sofa chung cư</span> <span>Quạt trần</span>
+                    <span>Tủ valanbo</span></p></a>
+               <a href=""><img src="imges/trangchu/logo.png" alt=""></a> 
+            </div>
+            <div class="col">
+                <a href=""><h6>THỜI GIAN MỞ CỬA</h6></a>
+             <div class="than">
+                <div class="hang1">
+                    <p>Thứ 2 - Thứ 7:</p>
+                    <p><Span>08:00 - 18:30</Span></p>
+                </div>
+                <div class="hang1">
+                    <p>Chủ nhật:</p>
+                    <p><Span>09:00 - 18:00</Span></p>
+                </div>
+                <div class="hang1">
+                    <img src="imges/icond/foooter.png" alt="">
+                </div>
+             
+             </div>
+            </div>
+        </div>
+    </div>
+     </div>
+     <div class="footer-giua">
+       <div class="container">
+       <div class="row">
+        <div class="col-md-3">
+         <h5>Showroom</h5>
+         <p><Span>Add:</Span> Số 199 - Trần Quốc Hoàn - Dịch Vọng - Cầu Giấy - Hà Nội</p>
+         <p><Span>Tel:</Span> 0865282883</p>
+        </div>
+        <div class="col-md-3">
+            <h5>Showroom</h5>
+            <p><Span>Add:</Span> Số 199 - Trần Quốc Hoàn - Dịch Vọng - Cầu Giấy - Hà Nội</p>
+            <p><Span>Tel:</Span> 0865282883</p>
+           </div>
+
+           <div class="col-md-3">
+            <h5>Showroom</h5>
+            <p><Span>Add:</Span> Số 199 - Trần Quốc Hoàn - Dịch Vọng - Cầu Giấy - Hà Nội</p>
+            <p><Span>Tel:</Span> 0865282883</p>
+           </div>
+
+           <div class="col-md-3">
+            <h5>Showroom</h5>
+            <p><Span>Add:</Span> Số 199 - Trần Quốc Hoàn - Dịch Vọng - Cầu Giấy - Hà Nội</p>
+            <p><Span>Tel:</Span> 0865282883</p>
+           </div>
+   
+
+       </div>
+       </div>
+     </div>
+     <div class="footer-cuoi">
+        <div class="container">
+            <p>+ GPKD số 0101499246 do SKH&ĐT TP Hà Nội cấp <br>
+                + Công Ty TNHH Tư Vấn Đầu Tư & TM Hà Nội <br>
+                © 2022 Copyright by <span>Nội Thất Hà Nội</span> - Chuyên cung cấp các ghế sofa, sofa bed, sofa giường, Nội thất chung cư cao cấp.</p>
+        </div>
+    </div>
+
+ <!--Jquery -->
+ <div class="btn__scroll">
+  <i class="fas fa-chevron-up"></i>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="Kieu-Anh-Duc/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="./index.js" type="text/javascript"></script>
+</html>
